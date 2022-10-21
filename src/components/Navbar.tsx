@@ -1,6 +1,5 @@
-import React, { useState } from "react";
-import { Fragment } from "react";
-import { Popover, Transition } from "@headlessui/react";
+import React from "react";
+
 import {HomeIcon, Bars3Icon, UserIcon, DocumentIcon} from "@heroicons/react/20/solid";
 type Props = {};
 
@@ -37,6 +36,7 @@ export default function Navbar({}: Props) {
               <li className="nav-item mt-1">
                 <a
                     className="rounded-md px-3 py-2 flex items-center font-poppins  bg-white text-gray-lite font-medium mx-2.5 leading-snug hover:text-white hover:bg-gradient-to-r from-[#FA5252] to-[#DD2476] dark:text-[#A6A6A6]   transition-all duration-300 ease-in-out"
+                    href="/"
                 >
                   <HomeIcon className="mr-1.5 h-5 w-5 flex-shrink-0 hover:text-white"
                             aria-hidden="true"/>
@@ -47,6 +47,7 @@ export default function Navbar({}: Props) {
               <li className="nav-item mt-1">
                 <a
                     className="rounded-md px-3 py-2 flex items-center font-poppins  bg-white text-gray-lite font-medium mx-2.5 leading-snug hover:text-white hover:bg-gradient-to-r from-[#FA5252] to-[#DD2476] dark:text-[#A6A6A6]   transition-all duration-300 ease-in-out"
+                    href={'/about'}
                 >
                   <UserIcon className="mr-1.5 h-5 w-5 flex-shrink-0 hover:text-white"
                             aria-hidden="true"/>
@@ -57,6 +58,7 @@ export default function Navbar({}: Props) {
               <li className="nav-item mt-1">
                 <a
                     className="rounded-md px-3 py-2 flex items-center font-poppins  bg-white text-gray-lite font-medium mx-2.5 leading-snug hover:text-white hover:bg-gradient-to-r from-[#FA5252] to-[#DD2476] dark:text-[#A6A6A6]   transition-all duration-300 ease-in-out"
+                    href={'/resume'}
                 >
                   <DocumentIcon className="mr-1.5 h-5 w-5 flex-shrink-0 hover:text-white"
                                 aria-hidden="true"/>

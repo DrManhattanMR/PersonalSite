@@ -1,0 +1,7 @@
+.resume-btn{
+    background-color: rgb(237 242 242/var(--tw-bg-opacity));
+    border-radius: 0.5rem;
+    color: rgb(68 86 108/var(--tw-text-opacity));
+    cursor: default;
+    padding: 0.5rem 1.25rem;
+}

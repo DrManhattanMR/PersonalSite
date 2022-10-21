@@ -1,18 +1,18 @@
 import React from "react";
-import {UserIcon} from "@heroicons/react/20/solid"
+import {PaintBrushIcon, CodeBracketIcon, CircleStackIcon, GlobeAltIcon,RocketLaunchIcon} from "@heroicons/react/20/solid"
 
 type Props = {};
 
 export default function About({}: Props) {
-    return <div className="container lg:rounded-2xl bg-white dark:bg-[#111111]  px-4 sm:px-5 md:px-10 lg:px-20">
+    return <div className="container lg:rounded-2xl bg-blue-50 dark:bg-[#111111]  px-4 sm:px-5 md:px-10 lg:px-20">
         <div data-os="fade" className="aos-init aos-animate">
             <div className="py-12">
-                <h1 className="inline-block text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight dark:text-slate-200">About
+                <h1 className="inline-block text-2xl sm:text-3xl font-extrabold text-slate-900 text-[#001c64] tracking-tight dark:text-slate-200">About
                     Me</h1>
                 <div className="grid grid-cols-12 md:gap-10 pt-4 md:pt-[40px] items-center">
                     <div className="col-span-12 md:col-span-4"><img
                         className="w-full md:w-[330px] md:h-[400px] object-cover overflow-hidden rounded-[35px] mb-3 md:mb-0"
-                        src="/static/media/about.01c11c889888a40123f4.jpg" alt=""/></div>
+                        src="" alt=""/></div>
                     <div className="col-span-12 md:col-span-8 space-y-2.5">
                         <div className=" md:mr-12 xl:mr-16"><h3
                             className="text-4xl font-medium dark:text-white mb-2.5 ">Who
@@ -79,35 +79,35 @@ export default function About({}: Props) {
 
             <div className="pb-12 "><h3 className="text-[35px] dark:text-white font-medium pb-5">What I do!</h3>
                 <div className="grid gap-8 grid-cols-1 md:grid-cols-2 xl:grid-cols-3 ">
-                    <div className="about-box dark:bg-transparent" style={{background: "rgb(252, 244, 255)"}}><img
-                        className="w-10 h-10 object-contain  block"
-                        src="" alt=""/>
-                        <div className="space-y-2"><h3 className="dark:text-gray-700 text-2xl font-semibold">Ui/Ux
+                    <div className="about-box dark:bg-transparent" style={{background: "rgb(252, 244, 255)"}}>
+                        <div className="space-y-2"><h3 className="dark:text-gray-700 text-2xl font-semibold">
+                            <PaintBrushIcon className="w-5 h-5 text-indigo-600"/>
+                            Ui/Ux
                             Design</h3><p className=" leading-8 text-gray-lite dark:text-[#A6A6A6]">I create beautiful, responsive layouts and human-friendly interfaces using the most populars frameworks UI like Bootstrap, Materialize, React MUI, PrimeNG, PrimeReact, Vuetify Bulma and more...</p></div>
                     </div>
-                    <div className="about-box dark:bg-transparent" style={{background: "rgb(254, 250, 240)"}}><img
-                        className="w-10 h-10 object-contain  block"
-                        src="" alt=""/>
-                        <div className="space-y-2"><h3 className="dark:text-gray-700 text-2xl font-semibold">App
+                    <div className="about-box dark:bg-transparent" style={{background: "rgb(254, 250, 240)"}}>
+                        <div className="space-y-2"><h3 className="dark:text-gray-700 text-2xl font-semibold">
+                            <CodeBracketIcon className="w-5 h-5 text-indigo-600"/>
+                            App
                             Development</h3><p className=" leading-8 text-gray-lite dark:text-[#A6A6A6]">Using Ionic Framework, Xamarin, Flutter, React Native and more, your business can have its own web, desktop or mobile application </p></div></div>
-                    <div className="about-box dark:bg-transparent" style={{background: "rgb(252, 244, 255)"}}><img
-                        className="w-10 h-10 object-contain  block"
-                        src="" alt=""/>
+                    <div className="about-box dark:bg-transparent" style={{background: "rgb(252, 244, 255)"}}>
                         <div className="space-y-2"><h3
-                            className="dark:text-gray-700 text-2xl font-semibold">Backend Development</h3><p
+                            className="dark:text-gray-700 text-2xl font-semibold">
+                            <CircleStackIcon className="w-5 h-5 text-indigo-600"/>
+                            Backend Development</h3><p
                             className=" leading-8 text-gray-lite dark:text-[#A6A6A6]">Using C#, Javascript, Typescript, MySql, PostgreSQL and more, the manipulation of your business data, in your hands! </p></div></div>
-                    <div className="about-box dark:bg-transparent" style={{background: "rgb(255, 244, 244)"}}><img
-                        className="w-10 h-10 object-contain  block"
-                        src="" alt=""/>
+                    <div className="about-box dark:bg-transparent" style={{background: "rgb(255, 244, 244)"}}>
                         <div className="space-y-2"><h3
-                            className="dark:text-gray-700 text-2xl font-semibold">Web
+                            className="dark:text-gray-700 text-2xl font-semibold">
+                            <GlobeAltIcon className="w-5 h-5 text-indigo-600"/>
+                            Web
                             Development</h3><p
                             className=" leading-8 text-gray-lite dark:text-[#A6A6A6]"> Using Angular, ReactJs, VueJs and more your bussiness available to everyone.</p></div>
                     </div>
-                    <div className="about-box dark:bg-transparent" style={{background: "rgb(255, 240, 248)"}}><img
-                        className="w-10 h-10 object-contain  block"
-                        src="" alt=""/>
-                        <div className="space-y-2"><h3 className="dark:text-gray-700 text-2xl font-semibold">More?</h3>
+                    <div className="about-box dark:bg-transparent" style={{background: "rgb(255, 240, 248)"}}>
+                        <div className="space-y-2"><h3 className="dark:text-gray-700 text-2xl font-semibold">
+                            <RocketLaunchIcon className="w-5 h-5 text-indigo-600"/>
+                            More?</h3>
                             <p className=" leading-8 text-gray-lite dark:text-[#A6A6A6]">RestApis, Mockups, hybrids apps, freelance, etc</p></div>
                     </div>
                     {/*<div className="about-box dark:bg-transparent" style={{background: "rgb(243, 250, 255)"}}><img
