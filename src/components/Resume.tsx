@@ -115,8 +115,8 @@ export default function Resume({}: Props) {
                     </div>
                 </div>
                 <div className="container bg-color-810 dark:bg-[#0D0D0D] py-12 px-4 sm:px-5 md:px-10 lg:px-20">
-                    <div className="grid grid-cols-1  md:grid-cols-2 gap-8">
-                        <div className="col-span-1"><h4 className="text-3xl dark:text-white font-medium mb-6">Working
+                    <div className="grid grid-cols-1  md:grid-cols-1 gap-8">
+                        {/*<div className="col-span-1"><h4 className="text-3xl dark:text-white font-medium mb-6">Working
                             Skills</h4>
                             <div className=" mb-7">
                                 <div className="flex justify-between py-1"><span
@@ -190,26 +190,26 @@ export default function Resume({}: Props) {
                                           }}></path>
                                 </svg>
                             </div>
-                        </div>
+                        </div>*/}
                         <div className="col-span-1"><h4
                             className="text-3xl dark:text-white font-medium mb-8">Knowledges</h4>
                             <div className="flex gap-x-3 gap-y-3 md:gap-y-6 md:gap-x-4 flex-wrap">
-                                <button className="resume-btn dark:text-[#001c64]">REST Api</button>
-                                <button className="resume-btn dark:text-[#001c64]">DevExpress</button>
-                                <button className="resume-btn dark:text-[#001c64]">C#</button>
-                                <button className="resume-btn dark:text-[#001c64]">Typescript</button>
-                                <button className="resume-btn dark:text-[#001c64]">Javascript</button>
-                                <button className="resume-btn dark:text-[#001c64]">Sql</button>
-                                <button className="resume-btn dark:text-[#001c64]">Net, Net Core</button>
-                                <button className="resume-btn dark:text-[#001c64]">NodeJs</button>
-                                <button className="resume-btn dark:text-[#001c64]">React</button>
-                                <button className="resume-btn dark:text-[#001c64]">Vue</button>
-                                <button className="resume-btn dark:text-[#001c64]">Ionic Framework</button>
-                                <button className="resume-btn dark:text-[#001c64]">Angular</button>
-                                <button className="resume-btn dark:text-[#001c64]">Bootstrap</button>
-                                <button className="resume-btn dark:text-[#001c64]">PrimeNG</button>
-                                <button className="resume-btn dark:text-[#001c64]">Prime React</button>
-                                <button className="resume-btn dark:text-[#001c64]">And More</button>
+                                <button className="resume-btn dark:text-[#001c64] border-[#6366f1]">REST Api</button>
+                                <button className="resume-btn dark:text-[#001c64] border-[#6366f1]">DevExpress</button>
+                                <button className="resume-btn dark:text-[#001c64] border-[#6366f1]">C#</button>
+                                <button className="resume-btn dark:text-[#001c64] border-[#6366f1]">Typescript</button>
+                                <button className="resume-btn dark:text-[#001c64] border-[#6366f1]">Javascript</button>
+                                <button className="resume-btn dark:text-[#001c64] border-[#6366f1]">Sql</button>
+                                <button className="resume-btn dark:text-[#001c64] border-[#6366f1]">Net, Net Core</button>
+                                <button className="resume-btn dark:text-[#001c64] border-[#6366f1]">NodeJs</button>
+                                <button className="resume-btn dark:text-[#001c64] border-[#6366f1]">React</button>
+                                <button className="resume-btn dark:text-[#001c64] border-[#6366f1]">Vue</button>
+                                <button className="resume-btn dark:text-[#001c64] border-[#6366f1]">Ionic Framework</button>
+                                <button className="resume-btn dark:text-[#001c64] border-[#6366f1]">Angular</button>
+                                <button className="resume-btn dark:text-[#001c64] border-[#6366f1]">Bootstrap</button>
+                                <button className="resume-btn dark:text-[#001c64] border-[#6366f1]">PrimeNG</button>
+                                <button className="resume-btn dark:text-[#001c64] border-[#6366f1]">Prime React</button>
+                                <button className="resume-btn dark:text-[#001c64] border-[#6366f1]">And More</button>
                             </div>
                         </div>
                     </div>

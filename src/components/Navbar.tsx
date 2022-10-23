@@ -1,6 +1,6 @@
 import React from "react";
 
-import {HomeIcon, Bars3Icon, UserIcon, DocumentIcon} from "@heroicons/react/20/solid";
+import {HomeIcon, Bars3Icon, UserIcon, DocumentIcon, ChatBubbleLeftRightIcon} from "@heroicons/react/20/solid";
 type Props = {};
 
 export default function Navbar({}: Props) {
@@ -63,6 +63,16 @@ export default function Navbar({}: Props) {
                   <DocumentIcon className="mr-1.5 h-5 w-5 flex-shrink-0 hover:text-white"
                                 aria-hidden="true"/>
                   <span className="ml-2">Resume</span>
+                </a>
+              </li>
+              <li className="nav-item mt-1">
+                <a
+                    className="rounded-md px-3 py-2 flex items-center font-poppins  bg-white text-gray-lite font-medium mx-2.5 leading-snug hover:text-white hover:bg-gradient-to-r from-[#FA5252] to-[#DD2476] dark:text-[#A6A6A6]   transition-all duration-300 ease-in-out"
+                    href={'/contact'}
+                >
+                  <ChatBubbleLeftRightIcon className="mr-1.5 h-5 w-5 flex-shrink-0 hover:text-white"
+                                aria-hidden="true"/>
+                  <span className="ml-2">Contact</span>
                 </a>
               </li>
 
