@@ -11,8 +11,10 @@ const sendEmail = (event:any) => {
         .then((result) => {
             console.log(result.text);
             if (result.text=='OK'){
-                toast('Mensaje enviado');
+                toast('Send');
                 event.target.reset();
+            } else{
+                toast.error('Try again')
             }
         }, (error) => {
             console.log(error.text);
