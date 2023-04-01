@@ -28,7 +28,7 @@ export default function Contact({ }: Props) {
             <div data-aos="fade" className="aos-init aos-animate">
                 <div className="container px-4 sm:px-5 md:px-10 lg:px-20">
                     <div className="py-12 px-4"><h2
-                        className="after-effect after:left-44 text-2xl sm:text-3xl font-extrabold text-slate-900 mb-[40px] mt-1 dark:text-slate-200 lg:mt-0 text-[#001c64]">Contact</h2>
+                        className="after-effect after:left-44 text-2xl sm:text-3xl font-extrabold text-slate-900 mb-[40px] mt-1 dark:text-slate-200 lg:mt-0">Contact</h2>
                         <div className="lg:flex gap-x-20">
                             <div className="w-full lg:w-[40%] xl:w-[30%] space-y-6">
                                 <div
@@ -75,7 +75,7 @@ export default function Contact({ }: Props) {
                             </div>
                             <div className="w-full mt-8 lg:mt-0 lg:w-[60%] xl:w-[70%]">
                                 <div data-aos="fade"
-                                    className="dark:border-[#212425] dark:border-2 mb-16 md:p-[48px] p-4 bg-color-810 rounded-xl dark:bg-[#111111] mb-[30px] md:mb-[60px] aos-init aos-animate">
+                                    className="dark:border-[#212425] dark:border-2 md:p-[48px] p-4 bg-color-810 rounded-xl dark:bg-[#111111] mb-[30px] md:mb-[60px] aos-init aos-animate">
                                     <h3 className="text-4xl">
                                         <span className="text-gray-lite dark:text-[#A6A6A6] ">I'm always open to discussing product.</span>
                                         <br />

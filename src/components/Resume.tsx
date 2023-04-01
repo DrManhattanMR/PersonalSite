@@ -8,7 +8,7 @@ export default function Resume({ }: Props) {
             <div data-aos="fade" className="aos-init aos-animate">
                 <div className="container  sm:px-5 md:px-10 lg:px-20">
                     <div className="py-12 px-4"><h2
-                        className="after-effect after:left-44 text-2xl sm:text-3xl font-extrabold text-slate-900 mb-[40px] mt-1 dark:text-slate-200 lg:mt-0 text-[#001c64]">Resume</h2>
+                        className="after-effect after:left-44 text-2xl sm:text-3xl font-extrabold text-slate-900 mb-[40px] mt-1 dark:text-slate-200 lg:mt-0">Resume</h2>
                         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-x-6 gap-y-6 ">
                             <div>
                                 <div className="flex items-center space-x-2 mb-6 ">
@@ -25,7 +25,7 @@ export default function Resume({ }: Props) {
                                 <div
                                     className="py-4 pl-5 pr-3 space-y-2 mb-6 rounded-lg  dark:border-[#212425] dark:border-2"
                                     style={{ background: "rgb(255, 244, 244)" }}><span
-                                        className="text-tiny text-gray-lite dark:text-[#b7b7b7]">2019-2022</span>
+                                        className="text-tiny text-gray-lite dark:text-[#001C64]">2019-2022</span>
                                     <h3 style={{ fontFamily: 'Sans-Serif', fontWeight: 600, color: '#001c64' }} className={"text-l" +
                                         " dark:text-[#001c64]"}>Máster System Computer Engineering </h3>
                                     <p className="dark:text-[#b7b7b7]">UAIS University, Sinaloa, MX</p>
@@ -33,7 +33,7 @@ export default function Resume({ }: Props) {
                                 <div
                                     className="py-4 pl-5 pr-3 space-y-2 rounded-lg mb-6 dark:border-[#212425] dark:border-2"
                                     style={{ background: "rgb(255, 244, 244)" }}><span
-                                        className="text-tiny text-gray-lite dark:text-[#b7b7b7]">2018-2019</span>
+                                        className="text-tiny text-gray-lite dark:text-[#001C64]">2018-2019</span>
                                     <h3 style={{ fontFamily: 'Sans-Serif', fontWeight: 600, color: '#001c64' }}
                                         className="text-l dark:text-[#001c64]">Intern Communication Engineering </h3><p
                                             className="dark:text-[#b7b7b7]">UIMQROO, Quintana Roo, MX</p>
@@ -41,7 +41,7 @@ export default function Resume({ }: Props) {
                                 <div
                                     className="py-4 pl-5 pr-3 space-y-2 rounded-lg  mb-6 dark:border-[#212425] dark:border-2"
                                     style={{ background: "rgb(255, 241, 251)" }}><span
-                                        className="text-tiny text-gray-lite dark:text-[#b7b7b7]">2013 - 2018</span>
+                                        className="text-tiny text-gray-lite dark:text-[#001C64]">2013 - 2018</span>
                                     <h3 style={{ fontFamily: 'Sans-Serif', fontWeight: 600, color: '#001c64' }}
                                         className="text-l dark:text-[#001c64]">Computer System Engineer</h3><p
                                             className="dark:text-[#b7b7b7]">UAIS University, Sinaloa, MX.</p>
@@ -62,21 +62,21 @@ export default function Resume({ }: Props) {
                                 <div
                                     className="py-4 pl-5 pr-3 space-y-2 mb-6 rounded-lg  dark:border-[#212425] dark:border-2"
                                     style={{ background: "rgb(238, 245, 250)" }}><span
-                                        className="text-tiny text-gray-lite dark:text-[#b7b7b7]">2018-2020</span>
+                                        className="text-tiny text-gray-lite dark:text-[#001C64]">2018-2020</span>
                                     <h3 style={{ fontFamily: 'Sans-Serif', fontWeight: 600, color: '#001c64' }}
                                         className="text-l dark:text-[#001c64]">Backend and Frontend Developer</h3><p
                                             className="dark:text-[#b7b7b7]">UAdeO University, Sinaloa, MX.</p></div>
                                 <div
                                     className="py-4 pl-5 pr-3 space-y-2 rounded-lg  mb-6 dark:border-[#212425] dark:border-2"
                                     style={{ background: "rgb(242, 244, 255)" }}><span
-                                        className="text-tiny text-gray-lite dark:text-[#b7b7b7]">2019-2021</span><h3
+                                        className="text-tiny text-gray-lite dark:text-[#001C64]">2019-2021</span><h3
                                             style={{ fontFamily: 'Sans-Serif', fontWeight: 600, color: '#001c64' }}
                                             className="text-l dark:text-[#001c64]">Backend and Frontend Developer</h3><p
                                                 className="dark:text-[#b7b7b7]">UAIS University, Sinaloa, MX.</p></div>
                                 <div
                                     className="py-4 pl-5 pr-3 space-y-2 rounded-lg  dark:border-[#212425] dark:border-2"
                                     style={{ background: "rgb(238, 245, 250)" }}><span
-                                        className="text-tiny text-gray-lite dark:text-[#b7b7b7]">2020-2021</span><h3
+                                        className="text-tiny text-gray-lite dark:text-[#001C64]">2020-2021</span><h3
                                             style={{ fontFamily: 'Sans-Serif', fontWeight: 600, color: '#001c64' }}
                                             className="text-l dark:text-[#001c64]">Angular & C# Developer</h3><p
                                                 className="dark:text-[#b7b7b7]">Gaxiola's System, Sinaloa, MX.</p></div>
