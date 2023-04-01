@@ -8,7 +8,7 @@ export default function Resume({ }: Props) {
             <div data-aos="fade" className="aos-init aos-animate">
                 <div className="container  sm:px-5 md:px-10 lg:px-20">
                     <div className="py-12 px-4"><h2
-                        className="after-effect after:left-44 text-2xl sm:text-3xl font-extrabold text-slate-900 mb-[40px] mt-1 dark:text-slate-200 lg:mt-0 text-[#001c64]">Resume</h2>
+                        className="after-effect after:left-44 text-2xl sm:text-3xl font-extrabold text-slate-900 mb-[40px] mt-1 dark:text-slate-200 lg:mt-0">Resume</h2>
                         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-x-6 gap-y-6 ">
                             <div>
                                 <div className="flex items-center space-x-2 mb-6 ">
