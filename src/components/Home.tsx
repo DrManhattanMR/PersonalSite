@@ -1,6 +1,6 @@
 import React from "react";
 import avatar from "../assets/avatar.jpeg"
-import profile from "../assets/profile.png"
+import profile from "../assets/profile.jpg"
 import iconsvg from "../assets/iconsvg.json"
 
 export default function Home() {

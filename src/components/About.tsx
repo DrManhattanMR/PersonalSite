@@ -1,6 +1,6 @@
 
 import { PaintBrushIcon, CodeBracketIcon, CircleStackIcon, GlobeAltIcon, RocketLaunchIcon } from "@heroicons/react/20/solid"
-import profile from "../assets/profile.png"
+import profile from "../assets/profile.jpg"
 import iconsvg from "../assets/iconsvg.json"
 export default function About() {
     return <div>
