@@ -36,7 +36,7 @@ export default function About() {
                                                 className="text-xs text-gray-lite dark:text-color-910">Phone</p><h6
                                                     className="font-medium dark:text-white"><a
                                                         className="hover:text-[#FA5252] duration-300 transition"
-                                                        href="tel:+1234567890">+8482240128</a></h6></div>
+                                                        href="tel:+1234567890">+18482240128</a></h6></div>
                                         </div>
                                         <div className="flex"><span
                                             className="text-oriange-lite dark:bg-color-990 shadow-icon mr-2.5 flex items-center justify-center rounded-md text-2xl w-12 text-"><svg
