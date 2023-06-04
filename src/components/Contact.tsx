@@ -41,7 +41,7 @@ export default function Contact({ }: Props) {
                                     <div className="space-y-2">
                                         <p className="text-xl font-semibold dark:text-[#A6A6A6]">Phone:</p>
                                         <p className="text-gray-lite text-lg dark:text-[#A6A6A6] ">+1 848 224 0128</p>
-                                        <p className="text-gray-lite text-lg dark:text-[#A6A6A6] ">+52 667 584 2592</p>
+                                        {/* <p className="text-gray-lite text-lg dark:text-[#A6A6A6] ">+52 667 584 2592</p> */}
                                     </div>
                                 </div>
                                 <div
@@ -67,9 +67,9 @@ export default function Contact({ }: Props) {
                                             alt="icon" className="text-4xl dark:text-white" />
                                     </span>
                                     <div className="space-y-2"><p
-                                        className="text-xl font-semibold dark:text-[#A6A6A6]">Address :</p><p
-                                            className="text-gray-lite text-lg dark:text-[#A6A6A6] ">225 Bry Ave</p><p
-                                                className="text-gray-lite text-lg dark:text-[#A6A6A6] ">Howell, New Jersey</p>
+                                        className="text-xl font-semibold dark:text-[#A6A6A6]">Address :</p>
+                                        {/* <p className="text-gray-lite text-lg dark:text-[#A6A6A6] ">225 Bry Ave</p> */}
+                                        <p className="text-gray-lite text-lg dark:text-[#A6A6A6] ">Howell, New Jersey</p>
                                     </div>
                                 </div>
                             </div>
