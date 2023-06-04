@@ -8,7 +8,7 @@ export default function About() {
             <div data-os="fade" className="aos-init aos-animate">
                 <div className="container sm:px-5 md:px-10 lg:px-20">
                     <div className="py-12 px-4">
-                        <h1 className="inline-block text-2xl sm:text-3xl font-extrabold text-slate-900 text-[#001c64] tracking-tight dark:text-slate-200">About
+                        <h1 className="inline-block text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight dark:text-slate-200">About
                             Me</h1>
                         <div className="grid grid-cols-12 md:gap-10 pt-4 md:pt-[40px] items-center">
                             <div className="col-span-12 md:col-span-4"><img
